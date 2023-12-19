@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&family=Poppins:wght@300;400;600;700;800&display=swap');
+
+body {
+    background-color: #a5767c;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(89.06, 32%, 69%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(291.43, 26%, 88%) 0, transparent 55%);
+        
+}
+
+.box
+{
+    border:3px dashed black;
+    margin-top:40px;
+    height:600px;
+}
+
+#myForm
+{
+    padding:50px;
+}
+
+#fname
+{
+    border:2px solid black;
+    border-radius:5px;
+
+}
+#fname:hover{
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+}
+#lname
+{
+  position: absolute;
+  top:91px;
+  left:650px;
+  border-radius:5px;
+  border:2px solid black;
+}
+.lname
+{
+   position: absolute;
+  top:93px;
+  left:570px;
+  /* float :left; */
+ 
+}
+#lname:hover{
+    
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+}
+#address
+{
+    position: absolute;
+    top:140px;
+    left:346px;
+    border-radius:5px;
+    border:2px solid black;
+}
+.address
+ {
+        position: absolute;
+        top:140px;
+        left:265px;
+ }
+
+ #address:hover{
+
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+
+ }
+ #pincode
+ {
+    
+        position: absolute;
+        top:183px;
+        left:346px;
+        border-radius:5px;
+        border:2px solid black;
+    
+ }
+ .pincode
+ {
+    position: absolute;
+        top:183px;
+ }
+
+ #pincode:hover{
+
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+ }
+
+ .male
+ {
+    position: absolute;
+    top:223px;
+ }
+ #male 
+ {
+    position: absolute;
+    top:230px;
+    left:350px;
+    background-color: blue;
+ }
+
+ #male1
+ {
+    position: absolute;
+    top:223px;
+    left:380px;
+    
+ }
+
+ #female
+ {
+    position: absolute;
+    top:230px;
+    left:450px;
+ }
+
+ #female1
+ {
+    position:absolute;
+    top:223px;
+    left:475px;
+    bottom:350px;
+ }
+
+#state
+{
+    position: absolute;
+    left:350px;
+    border-radius:5px;
+    border:2px solid black;
+}
+
+
+#state:hover{
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+}
+
+#country
+{
+    position: absolute;
+    left:350px;
+    top:530px;
+    border-radius:5px;
+    border:2px solid black;
+}
+.country{
+
+    position: absolute;
+    top:530px;
+}
+
+#country:hover{
+
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black
+
+}
+
+.submit
+{
+    position: absolute;
+    top:580px;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+.submit:hover{
+
+    background-image:linear-gradient( pink,coral,whitesmoke);
+    color:black;
+
+}
+
+table,thead,tr,th,td
+{
+  margin-top:30px;
+  margin-left:240px;
+  border:2px solid black;
+}
+
